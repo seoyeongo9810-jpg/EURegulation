@@ -1,0 +1,56 @@
+# 테마: 차분한 정책 리포트 톤 (주 색상 1개 + 중립색). 의미별 색은 src/theme.py 참고.
+# 라이트·다크를 모두 정의해 사용자 시스템 설정을 따른다(우측 상단 메뉴에서 전환 가능).
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+# Noto Sans KR (Google Fonts). 사내망에서 외부 접근이 막히면 맑은 고딕 등으로 대체된다.
+font = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, Malgun Gothic, sans-serif"
+headingFont = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, Malgun Gothic, sans-serif"
+headingFontSizes = ["1.85rem", "1.4rem", "1.15rem", "1rem"]
+headingFontWeights = [700, 700, 600, 600]
+baseFontSize = 15
+metricValueFontSize = "1.9rem"
+baseRadius = "0.5rem"
+showWidgetBorder = true
+chartCategoricalColors = ["#3B78C2", "#3E8E41", "#7B61C9", "#E39B2D", "#D64545", "#9AA0A8"]
+
+[theme.light]
+primaryColor = "#1F4E79"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F5F8"
+textColor = "#1C2430"
+borderColor = "#DCE1E7"
+linkColor = "#1F5FA8"
+redColor = "#C93C3C"
+orangeColor = "#C26F00"
+yellowColor = "#9C7A00"
+greenColor = "#2F7D32"
+blueColor = "#2E6DB4"
+violetColor = "#6A50B8"
+grayColor = "#6F7782"
+
+[theme.light.sidebar]
+backgroundColor = "#F3F5F8"
+
+[theme.dark]
+primaryColor = "#7FB0E6"
+backgroundColor = "#11161C"
+secondaryBackgroundColor = "#1B222B"
+textColor = "#E6EAF0"
+borderColor = "#2D3642"
+linkColor = "#8EBBEE"
+redColor = "#EF7474"
+orangeColor = "#F0A54A"
+yellowColor = "#E2C55A"
+greenColor = "#6CC070"
+blueColor = "#6FA6E8"
+violetColor = "#A991EE"
+grayColor = "#9AA2AE"
+
+[theme.dark.sidebar]
+backgroundColor = "#161C23"
